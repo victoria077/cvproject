@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family:  '8143';
+    src: 
+    url("fonts/8143.eot?") format("eot"),
+    url("fonts/8143.woff") format("woff"),
+    url("fonts/8143.ttf") format("truetype"),
+    url("fonts/8143.svg#Samplino") format("svg");
+    }
+
+@font-face {
+    font-family: '8141';
+    src: url("fonts/8141.eot?") format("eot"),
+        url("fonts/8141.woff") format("woff"),
+        url("fonts/8141.ttf") format("truetype"),
+        url("fonts/8141.svg#Samplino") format("svg"),
+        }
+body{
+    font-family: '8141', '8143';
+}
