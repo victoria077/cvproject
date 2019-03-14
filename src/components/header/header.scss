@@ -1,0 +1,42 @@
+.big_circl{
+    width: 370px;
+    height: 370px;
+    border-radius:50%; 
+    border: 2px solid #3d6cb0;
+    margin-left: 160px;
+}
+
+.circl{
+    width: 320px;
+    height: 320px;
+    border-radius:50%; 
+    background-color: #3d6cb0;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.title{
+    font-family: "8143";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin-left: 125px;
+    margin-top: 30px;
+
+}
+
+.title_surname{
+    font-family: "8141";
+    font-size: 97px;
+    text-transform: uppercase;
+    margin-left: 125px;
+    margin-top: -30px;
+}
+
+.title_profession{
+    font-family: "8141";
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-left: 180px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}

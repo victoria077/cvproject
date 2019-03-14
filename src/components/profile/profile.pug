@@ -1,0 +1,15 @@
+mixin heading(headingData)
+    .heading
+      .circle= headingData.circle
+        .small_circle= headingData.small_circle
+          .img= headingData.img
+      .text= headingData.text
+      .line= headingData.line
+      
+doctype html
+html
+  head
+    body
+      - const c = { circle, text: "Profile", line}
+      +heading(c)
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident culpa aspernatur est qui reiciendis illum, ipsum nostrum labore tenetur iste autem odit vero, adipisci possimus quae obcaecati corporis perspiciatis.

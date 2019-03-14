@@ -1,4 +1,7 @@
 import "./scss/main.scss";
+import "./components/header/header.scss"
+import "./components/profile/profile.scss"
+import "./components/header/header.pug"
 import "./index.pug";
 require('./fonts.scss');
 

@@ -1,0 +1,37 @@
+.heading{
+    width: 30%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto;
+ }
+ 
+ .circle{
+     width: 114px;
+     height: 114px;
+     border-radius:50%; 
+     border: 2px solid #3d6cb0;
+     margin-left: 3px;
+ }
+ 
+ .small_circle{
+   width: 102px;
+     height: 102px;
+     border-radius:50%; 
+     background-color: #3d6cb0;
+     margin-top: 6px;
+     margin-left: 6px;
+ }
+ 
+ .text{
+    font-family: "8141";
+    font-size: 66px;
+   text-transform: uppercase;
+   place-self: center start;
+ }
+
+ .line{
+   width: 16rem;
+   height: 10px;
+   background-color: #3d6cb0;
+    place-self: center start;
+ }
