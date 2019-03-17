@@ -3,6 +3,7 @@
     display: grid;
     grid-gap: 15px;
     grid-template-columns: auto auto auto;
+    margin-top: 70px;
  }
  
  .circle{
@@ -34,4 +35,16 @@
    height: 10px;
    background-color: #3d6cb0;
     place-self: center start;
+ }
+
+ p{
+     font-family: "8143";
+     font-size: 24.7px;
+     font-weight: bold;
+     margin-top: 17px;
+     margin-left: 5px;
+ }
+
+ p span{
+  font-family: "8141";
  }

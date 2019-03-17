@@ -1,0 +1,31 @@
+mixin heading(headingData)
+    .heading
+      .circle= headingData.circle
+        .small_circle= headingData.small_circle
+          .img= headingData.img
+      .text= headingData.text
+      .line= headingData.line
+
+mixin info(infoData)
+    .info
+        .designation= infoData.designation
+        .data=infoData.data
+
+doctype html
+html
+  head
+    body
+      - const d= { circle, text: "Contact", line}
+      +heading(d)
+
+      - const infoAddress= {designation: "address", data: "Main Street, City"}
+      +info(infoAddress)
+
+      - const infoMail= {designation: "e-mail", data: "contact@domain.com"}
+      +info(infoMail)
+
+      - const infoPhone= {designation: "phone", data: "555-555-555"}
+      +info(infoPhone)
+
+      - const infoWebsite= {designation: "website", data: "www.yourweb.com"}
+      +info(infoWebsite)

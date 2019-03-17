@@ -1,0 +1,26 @@
+mixin heading(headingData)
+    .heading
+      .circle= headingData.circle
+        .small_circle= headingData.small_circle
+          .img= headingData.img
+      .text= headingData.text
+      .line= headingData.line
+
+mixin skills(skillsData)
+    .skills
+        .quality= skillsData.quality
+        .quantity= skillsData.quantity    
+
+
+doctype html
+html
+  head
+    body
+      - const skills= { circle, text: "skills", line}
+      +heading(skills)
+
+      - const skillOne= {quality: "creative" }
+      +skills(skillOne)
+
+      - for (var x = 0; x < 3; x++)
+        quantity

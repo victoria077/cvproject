@@ -1,0 +1,19 @@
+.skills{
+    display: grid;
+ }
+
+.quality{
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: "8143";
+    text-transform: uppercase;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.quantity{
+    width: 28px;
+    height: 28px;
+    border-radius:50%; 
+    background-color: #3d6cb0;
+}

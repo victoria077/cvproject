@@ -1,0 +1,21 @@
+.info{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.designation{
+    font-family: "8141";
+    font-size: 33px;
+    text-transform: uppercase;   
+    color:  #3d6cb0;
+    margin-left: 3px;
+    margin-top: 46px;
+}
+
+.data{
+    font-family: "8143";
+    font-size: 33px;
+    margin-top: 46px;
+    margin-left: 3px;
+}
