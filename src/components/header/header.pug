@@ -5,3 +5,21 @@ main
         .title Name here
         .title_surname Surname
         .title_profession Graphic designer
+
+
+
+
+//-         mixin skills
+//-   .skills
+//-     +title("skills", "skills_title")
+//-     +skillItem({ title: "creative", rate: 12, level: 9})
+//-     +skillItem({ title: "teamwork", rate: 12, level: 7})
+    
+//- mixin skillItem(options)
+//-   .skill-item
+//-     .skill-item_title #{options.title}
+//-     .skill-rating
+//-       - for(var i = 1; i <= options.rate; i++) {
+//-         - var isChecked = (i === options.level) ? "skill-level_checked"
+//-         .skill-level #{isChecked}
+//-       - }

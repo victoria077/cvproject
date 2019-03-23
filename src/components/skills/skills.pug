@@ -9,7 +9,23 @@ mixin heading(headingData)
 mixin skills(skillsData)
     .skills
         .quality= skillsData.quality
-        .quantity= skillsData.quantity    
+        .wrapp
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+          .dot
+
+
+
+      
 
 
 doctype html
@@ -22,5 +38,7 @@ html
       - const skillOne= {quality: "creative" }
       +skills(skillOne)
 
-      - for (var x = 0; x < 3; x++)
-        quantity
+   
+       
+
+  

@@ -11,9 +11,15 @@
     margin-bottom: 15px;
 }
 
-.quantity{
-    width: 28px;
+.wrapp{
+    margin: 0 auto;
+}
+
+.dot{
     height: 28px;
-    border-radius:50%; 
-    background-color: #3d6cb0;
+     width: 28px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 16px;
 }
